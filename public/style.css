@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+main {
+  margin: 2rem;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Section Styles */
+#intro {
+  margin-top: 10%;
+}
+
+#auth-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  margin: 0.5rem 0;
+}
+
+form input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 80%;
+  max-width: 300px;
+}
+
+form button {
+  width: 80%;
+  max-width: 300px;
+}

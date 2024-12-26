@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome - Personalized Learning System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Personalized Learning System</h1>
+  </header>
+  <main>
+    <section id="intro">
+      <h2>Empowering Learning Through Personalization</h2>
+      <p>Experience a tailored educational journey designed just for you.</p>
+      <button id="get-started">Get Started</button>
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 Personalized Learning System</p>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    // Redirect to login/register page
+    document.getElementById('get-started').addEventListener('click', () => {
+      window.location.href = '/auth.html';
+    });
+  </script>
+</body>
+</html>
